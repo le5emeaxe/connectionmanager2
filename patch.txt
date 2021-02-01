@@ -1,0 +1,22 @@
+
+diff /tmp/connectionmanager2\@ciancio.net/extension.js /home/pruniaux/.local/share/gnome-shell/extensions/connectionmanager2\@ciancio.net/extension.js 
+164,166c164,167
+<                     icon = new St.Icon({icon_name: 'terminal',
+<                             style_class: 'connmgr-icon' });
+<                     menuItem.actor.add_child(icon);
+---
+>                     icon = new St.Icon({icon_name: 'terminal',icon_size: 15 });
+>                             
+>                    
+> 		    menuItem.actor.add_child(icon);
+268,269c269,270
+<                 iconAll = new St.Icon({icon_name: 'fileopen',
+<                                 style_class: 'connmgr-icon' });
+---
+>                 iconAll = new St.Icon({icon_name: 'fileopen',icon_size: 15 });
+>                                 
+286,287c287,288
+<                 iconTabs = new St.Icon({icon_name: 'fileopen',
+<                                 style_class: 'connmgr-icon' });
+---
+>                 iconTabs = new St.Icon({icon_name: 'fileopen',icon_size: 15 });
